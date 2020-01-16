@@ -1,3 +1,4 @@
+//01背包问题的动态规划
 #include<stdio.h>
 #include<stdlib.h>
 int V[100][100];//前i个物品装入容量为j的背包中获得的最大价值
