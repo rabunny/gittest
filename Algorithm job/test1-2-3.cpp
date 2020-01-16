@@ -9,7 +9,7 @@ void S(int a[],int l,int r)//交换
 	a[r]=t;
 }
 
-int P(int a[],int l,int r)
+int P(int a[],int l,int r)//排序 
 {
 	int x=a[l];
 	while(l<r)
@@ -24,7 +24,7 @@ int P(int a[],int l,int r)
 	return l; 
 } 
 
-void Qui(int a[],int l,int r)
+void Qui(int a[],int l,int r)//递归调用 
 {
 	if(l<r)
 	{
@@ -77,9 +77,9 @@ int main()
 {
 	int a[M],x,i,j,n,k;
 	
-	printf("请输入要查找的数所在的数列个数为：");
+	printf("请输入要操作的元素个数：");
 	scanf("%d",&n);
-	printf("请输入%d个数：",n);
+	printf("请输入%d个整数：",n);
 	for(i=0;i<n;i++)
 		scanf("%d",&a[i]);
 	
